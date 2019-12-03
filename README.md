@@ -17,7 +17,7 @@
 ### [Click here you can execute my project](https://marciagzq.github.io/PortfolioJS/)
 
 
-![pic](./images/screenshot.PNG)
+![pic](/images/screenshot.PNG)
 
 
 
