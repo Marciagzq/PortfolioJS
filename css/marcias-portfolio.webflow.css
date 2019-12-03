@@ -103,7 +103,7 @@ blockquote {
 }
 
 .hero-section.home-page-hero {
-  background-image: url('../images/work-late');
+  /* background-image: url('../images/work-late'); */
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -519,7 +519,7 @@ blockquote {
 }
 
 .button:hover {
-  background-color: #088347;
+  background-color: #828282;
   color: #fff;
 }
 
