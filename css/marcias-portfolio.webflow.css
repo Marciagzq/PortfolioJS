@@ -228,13 +228,17 @@ blockquote {
   transition: transform 1000ms ease;
   transition: transform 1000ms ease, -webkit-transform 1000ms ease;
   cursor: pointer;
+  z-index: 100;
 }
 
 .tile-image:hover {
-  -webkit-transform: scale(1.03);
+  /* -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
-  transform: scale(1.03);
+  transform: scale(1.03); */
+  opacity: 0.8;
+
 }
+
 
 .tile-image.hire {
   background-image: url('../images/coaching-coders-coding-7374.jpg');
@@ -1097,6 +1101,37 @@ blockquote {
   transition: opacity 1000ms ease;
 }
 
+/*  */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+  /*  */
+
 .heading-9 {
   font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   color: #000;
@@ -1126,6 +1161,8 @@ blockquote {
 
 .image-21 {
   opacity: 1;
+  background-position: 50% 50%;
+  
 }
 
 html.w-mod-js *[data-ix="tile-1"] {
